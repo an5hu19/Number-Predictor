@@ -1,0 +1,88 @@
+body{
+    background-color:rgb(89, 230, 230);
+}
+h1{
+    background-image : black;
+    height: 140px;
+}
+h2{
+    color:  rgb(4, 79, 177);
+    font-size: 50px;
+    text-align: center;
+    font-style: normal;
+    font-family: fantasy;
+}
+.rules {
+    display: flex;
+    flex-wrap: wrap;
+}
+.rules > div {
+    color: rgb(0, 2, 27);
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; 
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container {
+    background-color: rgb(1, 31, 56);
+    color: rgb(108, 188, 253);
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 750px;
+    border-radius: 5px;
+    height: auto;
+}
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+.wrapper > div {
+    margin-left: auto;
+    margin-right: auto;
+}
+h3{
+    text-align: center;
+    color:  rgb(129, 192, 189);
+    font-size: 30px;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+.main {
+    background-color:  rgb(1, 31, 56);
+    text-align: center;
+    color: rgb(107, 167, 247);
+    font-size: 30px;
+    font-family: fantasy;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 50px;
+    height: 30px;
+    border: solid 2px rgb(0, 96, 141);
+    border-radius: 20px; 
+}
+button {
+    margin-left: auto;
+    margin-right: auto; 
+    width: 150px;
+    height: 50px;
+    color:  rgb(1, 31, 56);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    background-color:  rgba(107, 168, 247, 0.144);
+    border-radius: 15px;
+}
+button:hover {
+    background-color: rgba(107, 168, 247, 0.486);
+}
